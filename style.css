@@ -26,11 +26,11 @@ html, body{
 }
 
 header{
-	background: #353637;
+	background: #353637; //grey
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 10%;
-	border-bottom #32a0c2 3px solid;
+	border-bottom: #32a0c2 3px solid;
 
 }
 header a{
@@ -269,6 +269,9 @@ header a:hover{
   //padding: 20px;
 }
 
+.droplnk{
+background-color:#353637;
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: #3498DB;
