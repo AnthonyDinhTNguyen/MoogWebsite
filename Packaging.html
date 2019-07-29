@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PACT | Packaging Design Verification and Test</title>
+		<link rel="stylesheet" href="style.css"
+		type="text/css">
+	</head>
+	<body>
+		<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="#Top">Top</a>
+	  		<a href="#Products">Products</a>
+  			<a href="#EESwimlane">EE Swimlane</a>
+  			<a href="#Guidelines">Guidelines</a>
+  			<a href="#Members">Members</a>
+    		<a href="#Standards">Standards</a>
+    		<a href="#Proposal Template">Proposal Template</a>			
+		</div>
+		<div id="main">
+	    <header>
+			<div class="container">
+			<div id="branding">
+				<h1><i class="fa fa-rocket"></i> <span class="highlight">MOOG</span> Packaging Design Verification and Test</h1>
+			<a name="Top">
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="services.html">Services</a></li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+		<button id = "floating-button" type="button" onclick="toggleNav()">&#9776;</button>
+		<div class="Page">
+			<A NAME="Products">
+			<div class="productRow">
+				<h1>Products</h1>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+				<div class="item">
+				</div>
+			</div>
+		</div>
+		<div class = "Page">
+			<A NAME="EESwimlane">
+			<h1>EE Swimlane</h1>
+			<video controls autoplay preload="none" style="width:700px;">
+				<source src="Swimlane.mp4" type="video/mp4" />
+				<p>Your browser does not support HTML5 Video.</p>
+			</video>
+
+		</div>
+		<div class="Page">
+		<A NAME="Guidelines">
+			<h1>Guidelines</h1>
+		</div>
+		<div class="Page">
+		<A NAME="Members">
+			<h1>Members</h1>
+			<div class="one-third">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>Cliver Guardado</h3>
+					<h4>Skillset</h4>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<h4>Assignment</h4>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+				</div>
+			</div>
+			<div class="one-third">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>Victor Medina</h3>
+					<h4>Skillset</h4>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<h4>Assignment</h4>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+				</div>
+			</div>
+			<div class="one-third">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>Stephen Phung</h3>
+					<h4>Skillset</h4>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<h4>Assignment</h4>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+				</div>
+			</div>
+		</div>
+		<div class="Page">
+			<A NAME="Standards">
+			<h1>Standards</h1>
+		</div>
+		<div class="Page">
+			<A NAME="Proposal Template">
+			<h1>Proposal Template</h1>
+		</div>
+<script>
+var menuState = 0;
+function toggleNav(){
+	if(menuState ==0){
+		menuState = 1;
+		openNav();
+	}
+	else{
+		menuState = 0;
+		closeNav();
+	}
+}
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("floating-button").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("floating-button").style.marginLeft = "0";
+}
+</script>
+	</body>
+</html>
