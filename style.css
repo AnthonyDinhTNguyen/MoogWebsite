@@ -372,6 +372,13 @@ header a:hover{
 .navDrop:hover .navContent {
   display: block;
 }
+
+.center{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:60%;
+}
 @font-face {
   font-family: 'MoogFont';
   src: url('Moog.ttf'); /* IE9 Compat Modes */
