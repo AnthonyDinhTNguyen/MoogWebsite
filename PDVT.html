@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PDVT | Power Design Verification and Test</title>
+		<link rel="stylesheet" href="style.css"
+		type="text/css">
+	</head>
+	<body>
+		<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="#Top">Top</a>
+	  		<a href="#Products">Products</a>
+  			<a href="#EESwimlane">EE Swimlane</a>
+  			<a href="#Guidelines">Guidelines</a>
+  			<a href="#Members">Members</a>
+    		<a href="#Standards">Standards</a>
+    		<a href="#Proposal Template">Proposal Template</a>			
+		</div>
+		<div id="main">
+	    <header>
+			<div class="container">
+			<div id="branding">
+				<h1><i class="fa fa-rocket"></i> <span class="highlight">MOOG</span> Power Design Verification and Test</h1>
+			<a name="Top"></a>
+			</div>
+			</div>
+		</header>
+		<div class="navbar">
+			<a href="index.html">Home</a>
+			<a href = "OrgChart.html">Org Chart</a>
+  			<div class="navDrop">
+    			<button class="navBtn">Teams
+      				<i class="fa fa-caret-down"></i>
+    			</button>
+    			<div class="navContent">
+      				<a href="adtv.html">ADVT</a>
+      				<a href="ddvt.html">DDVT</a>
+      				<a href="packaging.html">PACT</a>
+      				<a href="PDVT.html">PDVT</a>
+    			</div>
+  			</div>
+		</div>
+		<button id = "floating-button" type="button" onclick="toggleNav()">&#9776;</button>
+		<div class="Page">
+			<A NAME="Products"></A>
+			<div class="productRow">
+				<h1>Products</h1>
+				<div class="item">
+					<img src = "Power2.png" id = "PackagingImage"></img>
+					<ul>
+						<li class = "jobDescription">Designs primary (Aircraft) power to secondary (ACU) power process</li>
+					</ul>
+				</div>
+				<div class="item">
+					<img src = "Power1.png" id = "PackagingImage"></img>
+					<ul>
+						<li class = "jobDescription">System level design on power supply (PS) cards</li>
+					</ul>				
+				</div>
+			</div>
+		</div>
+		<div class = "Page">
+			<A NAME="EESwimlane">
+			<h1>EE Swimlane</h1>
+			<iframe id="SwimlanePDF" src="Swimlane.pdf" width="100%" height = "100%"></iframe>
+		</div>
+		<div class="Page">
+		<A NAME="Guidelines"></A>
+			<h1>Project Flowchart</h1>
+			<image src = "ProjectFlowChart.png" id = "ProjectFlowChart"></image>
+		</div>
+		<div class="Page">
+		<A NAME="Members">
+			<h1>Members</h1>
+			<section id="workBox">
+			<div class="one-quarter">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>John Gray</h3>
+					<h4>Skillset
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+					<h4>Assignment
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+				</div>
+			</div>
+			<div class="one-quarter">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>Kenny Hua</h3>
+					<h4>Skillset
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+					<h4>Assignment
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+				</div>
+			</div>
+			<div class="one-quarter">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>Nhien Hong</h3>
+					<h4>Skillset
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+					<h4>Assignment
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+				</div>
+			</div>
+			<div class="one-quarter">
+				<div class = "box">
+					<!--<img src="AnalogDesign.jpg" alt="AnalogDesign" style="height:50%; width:100%">-->
+					<h3>Felix Choi</h3>
+					<h4>Skillset
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+					<h4>Assignment
+					<p>Insert comments here</p>
+					<p>Insert comments here</p>
+					<p>Insert comments here</p></h4>
+				</div>
+			</div>
+			</section>
+		</div>
+		<div class="Page">
+			<A NAME="Standards">
+			<h1>Standards</h1>
+			<div class="dropdown">
+  				<button onclick="dropdown()" class="dropbtn">Select Standards</button>
+  				<div id="myDropdown" class="dropdown-content">
+    				<button onclick="swapDerating()">Derating</button>
+    				<button onclick="swapIPC()">IPC</button>
+    				<button onclick="swapStress()">Stress</button>
+    				<button onclick="swapElectrical()">Electrical</button>
+  				</div>
+			</div>
+			<iframe id="StandardsPDF" src="StandardIPC.pdf" width="100%" height = "100%"></iframe>
+		</div>
+		<div class="Page">
+			<A NAME="Proposal Template">
+			<h1>Proposal Template</h1>
+			<iframe id="ProposalTemplate" src="ProposalTemplate.pdf" width="100%" height = "100%"></iframe>
+		</div>
+<script src="WebsiteScript.js"></script>
+	</body>
+</html>
