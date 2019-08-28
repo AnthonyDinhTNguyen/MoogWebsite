@@ -164,17 +164,26 @@ header a:hover{
 	position:relative;
 	left: 7%;
 	top:10%;
+	overflow:auto;
 }
 .jobDescription{
 	font-size:20pt;
 }
+
+.memberPage{
+	height:20%;
+	width:100%;
+	background-color: grey;
+	margin-top:3%;
+}
+
 .Page{
 	height: 100%;
 	width: 100%;
 	background-color: grey;//#98012F;
 	margin-top: 3%;
 }
-.Page h1{
+.Page h1, .memberPage h1{
 	text-align:center;
 	font-size:30pt;
 	color:white;
